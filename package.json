@@ -1,0 +1,23 @@
+{
+  "name": "cloud-talk-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegsSpomers/Cloud-Talk-Test-Task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OlegsSpomers/Cloud-Talk-Test-Task/issues"
+  },
+  "homepage": "https://github.com/OlegsSpomers/Cloud-Talk-Test-Task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0"
+  }
+}
