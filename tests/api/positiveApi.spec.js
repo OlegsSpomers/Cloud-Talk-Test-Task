@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { UNIX_TIMESTAMP_CONVERTER_PATH, QUERY_FLAG } from '../constants/apiPaths';
+import { UNIX_TIMESTAMP_CONVERTER_PATH, QUERY_FLAG } from '../../constants/apiPaths';
 
 test.describe('API /api/unix-timestamp-converter/', () => {
 
