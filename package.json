@@ -1,0 +1,31 @@
+{
+  "name": "cloud-talk-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bdd:build": "npx playwright-bdd build",
+    "test": "npm run bdd:build && npx playwright test",
+    "test:ui": "npm run bdd:build && npx playwright test --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegsSpomers/Cloud-Talk-Test-Task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OlegsSpomers/Cloud-Talk-Test-Task/issues"
+  },
+  "homepage": "https://github.com/OlegsSpomers/Cloud-Talk-Test-Task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "playwright-bdd": "^8.4.1"
+  }
+}
