@@ -6,7 +6,10 @@
   "scripts": {
     "bdd:build": "npx playwright-bdd build",
     "test": "npm run bdd:build && npx playwright test",
-    "test:ui": "npm run bdd:build && npx playwright test --ui"
+    "test:ui": "npm run bdd:build && npx playwright test --ui",
+    "perf:run": "k6 run performance/scenarios/loadTest.js",
+    "perf:smoke": "k6 run performance/scenarios/smokeTest.js --vus 1 --iterations 10",
+    "perf:data": "node performance/generateData.js"
   },
   "repository": {
     "type": "git",

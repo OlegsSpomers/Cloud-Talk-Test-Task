@@ -1,5 +1,7 @@
 Cloud-Talk Playwright BDD Testing Project:
 
+    UI
+
     .Installation and Setup
 Follow these steps to get your local environment ready to run the tests.
 
@@ -45,3 +47,21 @@ playwright.config.ts - The main configuration file for Playwright and Playwright
 
     Notes:
 Project also contains oldtests folder, which is now not in use, but I kept it as alternative way.
+
+
+    K6
+
+    1. Installation
+
+brew install k6
+    
+    2. Run
+
+k6 run performance/scenarios/loadTest.js
+
+
+    API
+
+    1. Run
+
+npx playwright test --project=api-converter
